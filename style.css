@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+
+#navbar img{
+    height: 26px;
+   width: 26px;
+    margin: 10px;
+   margin-left: 200px;
+    
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 10px;
+}
+strong{
+    font-size: 50px;
+    font-weight: 900;
+}
+#home img{
+    height:340px;
+    width: 439px;
+}
+#home button{
+    padding: 1% 4%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+#home{
+    background-color: #fffc00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3% 2% 3%;
+}
+nav li,footer>section>section>div>ul>li:first-child ,footer>section>div>p{
+    font-weight: 600 !important;
+    color:#000000 !important;
+    margin:0 0.8%;
+}
+.gray{
+    color: #cccccc;
+    margin:0px 70px;
+    font-weight: 500;
+    
+}
+.gray li:hover{
+    color:#000000;
+}
+#footer section:last-child{
+    background-color: #000000;
+    color: #ffffff;
+}
+#navbar>ul{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 15px;
+    align-items: center;
+}
+#home>div{
+    display: flex;
+    padding: 45px 0;
+}
+
+#detail,#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#footer>section>section {
+    display: flex;
+    justify-content: flex-start;
+    padding-left:100px;
+}
+#footer>section:last-child{
+    display: flex;
+    padding: 10px 0px 10px 200px;
+    
+}
+#footer>section:last-child *{
+    padding-right: 50px;
+}
+#footer>section:first-child{
+    padding:30px;
+}
+#language{
+    padding-left: 170px;
+}
+
+.outline{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 600;
+    -webkit-text-fill-color: rgb(69, 159, 243); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -1px 1px 0 #000,
+				  0px 0px 0 #000,
+				 0px 0px 0 #000,
+				0px 0px 0 #000;
+}
+
+#back{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px 8px;
+}
+.light{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+}
+.and{
+    font-size: 20px;
+    font-weight: 700;
+}
+#curve{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: "Tangerine", serif;
+    -webkit-text-fill-color: rgb(238, 158, 138); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -1px 1px 0 #000,
+				  0px 0px 0 #000,
+				 0px 0px 0 #000,
+				0px 0px 0 #000;
+}
+#multicolor{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    background-image: -webkit-linear-gradient(left, #FF0000, #2acce9, #ee18e3); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #FF0000, #2acce9, #ee18e3); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #FF0000, #2acce9, #ee18e3); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #FF0000, #2acce9, #ee18e3); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #FF0000, #2acce9, #ee18e3); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+.dark{
+    -webkit-text-fill-color: rgb(250, 100, 62);
+}
+
+.unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+select {
+    background-color: #ffffef;
+    color: #cccccc;
+    border-radius: 4px;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 3.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+  }
+
+  
+ 
